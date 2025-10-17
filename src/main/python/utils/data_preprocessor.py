@@ -36,7 +36,11 @@ class DataPreprocessor:
         Args:
             config: Preprocessing configuration dictionary
         """
-        from ..core.config import get_config
+        # Handle both relative and absolute imports
+        try:
+            from ..core.config import get_config
+        except ImportError:
+            from core.config import get_config
 
         self.config = config or get_config().get_preprocessing_config()
         self.min_length = self.config.get('min_comment_length', 5)

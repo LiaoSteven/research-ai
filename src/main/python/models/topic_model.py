@@ -42,7 +42,11 @@ class TopicModel:
             >>> model = TopicModel(algorithm='LDA', n_topics=10)
             >>> topics = model.fit_transform(texts)
         """
-        from ..core.config import get_config
+        # Handle both relative and absolute imports
+        try:
+            from ..core.config import get_config
+        except ImportError:
+            from core.config import get_config
 
         self.config = config or get_config().get_topic_modeling_config()
         self.algorithm = algorithm or self.config.get('algorithm', 'LDA')

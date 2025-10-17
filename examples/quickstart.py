@@ -3,18 +3,32 @@
 Quick Start Example
 
 Demonstrates basic usage of the research-ai package.
+
+Run from project root:
+    python examples/quickstart.py
+
+Or install package first:
+    pip install -e .
+    python examples/quickstart.py
 """
 
 import sys
 from pathlib import Path
 
-# Add src to Python path
-sys.path.insert(0, str(Path(__file__).parent.parent / "src" / "main" / "python"))
+# Add package to path if not installed
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root / "src" / "main" / "python"))
 
-from services.youtube_collector import YouTubeCollector
-from utils.data_preprocessor import DataPreprocessor
-from models.sentiment_analyzer import SentimentAnalyzer
-from models.topic_model import TopicModel
+# Now import with absolute paths
+import services.youtube_collector as yt_module
+import utils.data_preprocessor as preprocess_module
+import models.sentiment_analyzer as sentiment_module
+import models.topic_model as topic_module
+
+YouTubeCollector = yt_module.YouTubeCollector
+DataPreprocessor = preprocess_module.DataPreprocessor
+SentimentAnalyzer = sentiment_module.SentimentAnalyzer
+TopicModel = topic_module.TopicModel
 
 
 def example_data_collection():

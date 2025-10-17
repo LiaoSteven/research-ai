@@ -55,7 +55,11 @@ class SentimentAnalyzer:
             >>> result = analyzer.analyze("这个视频太棒了！")
             >>> print(result['sentiment'])  # 'positive'
         """
-        from ..core.config import get_config
+        # Handle both relative and absolute imports
+        try:
+            from ..core.config import get_config
+        except ImportError:
+            from core.config import get_config
 
         self.config = config or get_config().get_sentiment_config()
         self.backend = backend

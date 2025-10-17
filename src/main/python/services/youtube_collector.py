@@ -18,7 +18,11 @@ except ImportError:
     build = None
     HttpError = None
 
-from ..core.config import get_config
+# Handle both relative and absolute imports
+try:
+    from ..core.config import get_config
+except ImportError:
+    from core.config import get_config
 
 
 logger = logging.getLogger(__name__)

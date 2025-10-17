@@ -26,20 +26,22 @@ class TopicModel:
 
     def __init__(
         self,
-        algorithm: str = 'LDA',
         n_topics: int = 10,
+        backend: str = 'lda',
+        language: str = 'multilingual',
         config: Optional[Dict[str, Any]] = None
     ):
         """
         Initialize topic model.
 
         Args:
-            algorithm: Algorithm to use ('LDA' or 'BERTopic')
             n_topics: Number of topics to extract
+            backend: Algorithm to use ('lda', 'nmf', or 'bertopic')
+            language: Language for stop words ('chinese', 'english', 'spanish', 'multilingual')
             config: Optional configuration dictionary
 
         Example:
-            >>> model = TopicModel(algorithm='LDA', n_topics=10)
+            >>> model = TopicModel(n_topics=10, backend='lda', language='spanish')
             >>> topics = model.fit_transform(texts)
         """
         # Handle both relative and absolute imports
@@ -48,16 +50,17 @@ class TopicModel:
         except ImportError:
             from core.config import get_config
 
-        self.config = config or get_config().get_topic_modeling_config()
-        self.algorithm = algorithm or self.config.get('algorithm', 'LDA')
-        self.n_topics = n_topics or self.config.get('n_topics', 10)
+        self.config = config or {}
+        self.backend = backend.lower()
+        self.n_topics = n_topics
+        self.language = language
         self.n_words_per_topic = self.config.get('n_words_per_topic', 10)
 
         self.model = None
         self.vectorizer = None
         self.feature_names = None
 
-        logger.info(f"TopicModel initialized with algorithm: {self.algorithm}")
+        logger.info(f"TopicModel initialized with backend: {self.backend}, language: {self.language}")
 
     def fit(self, texts: List[str]) -> 'TopicModel':
         """
@@ -71,32 +74,34 @@ class TopicModel:
         """
         logger.info(f"Fitting topic model on {len(texts)} documents")
 
-        if self.algorithm == 'LDA':
+        if self.backend == 'lda':
             self._fit_lda(texts)
-        elif self.algorithm == 'BERTopic':
+        elif self.backend == 'nmf':
+            self._fit_nmf(texts)
+        elif self.backend == 'bertopic':
             self._fit_bertopic(texts)
         else:
-            raise ValueError(f"Unknown algorithm: {self.algorithm}")
+            raise ValueError(f"Unknown backend: {self.backend}. Choose 'lda', 'nmf', or 'bertopic'")
 
         logger.info("Topic model fitting complete")
         return self
 
-    def transform(self, texts: List[str]) -> np.ndarray:
+    def transform(self, texts: List[str]) -> Dict[str, Any]:
         """
-        Transform texts to topic distributions.
+        Transform texts to topic assignments.
 
         Args:
             texts: List of text documents
 
         Returns:
-            Topic distribution matrix (n_documents x n_topics)
+            Dictionary with 'topics' (list of topic IDs) and 'probabilities' (list of confidence scores)
         """
         if self.model is None:
             raise ValueError("Model not fitted. Call fit() first.")
 
-        if self.algorithm == 'LDA':
+        if self.backend in ['lda', 'nmf']:
             return self._transform_lda(texts)
-        elif self.algorithm == 'BERTopic':
+        elif self.backend == 'bertopic':
             return self._transform_bertopic(texts)
 
     def fit_transform(self, texts: List[str]) -> np.ndarray:
@@ -113,28 +118,36 @@ class TopicModel:
         return self.transform(texts)
 
     def _fit_lda(self, texts: List[str]) -> None:
-        """Fit LDA model."""
+        """Fit LDA model with multilingual support."""
         try:
             from sklearn.feature_extraction.text import CountVectorizer
             from sklearn.decomposition import LatentDirichletAllocation
 
+            # Get stop words based on language
+            stop_words = self._get_stop_words()
+
             # Vectorize texts
             self.vectorizer = CountVectorizer(
-                max_df=self.config.get('max_df', 0.95),
-                min_df=self.config.get('min_df', 5),
-                max_features=self.config.get('max_features', 1000),
-                token_pattern=r'[\u4e00-\u9fff]+|[a-zA-Z]+'  # Chinese + English
+                max_df=0.85,  # Ignore words that appear in >85% of documents
+                min_df=2,     # Minimum document frequency
+                max_features=1000,
+                stop_words=stop_words,
+                token_pattern=r'(?u)\b\w\w+\b',  # Unicode word boundaries
+                lowercase=True
             )
 
             doc_term_matrix = self.vectorizer.fit_transform(texts)
             self.feature_names = self.vectorizer.get_feature_names_out()
 
+            logger.info(f"Vocabulary size: {len(self.feature_names)}")
+
             # Fit LDA
             self.model = LatentDirichletAllocation(
                 n_components=self.n_topics,
                 random_state=42,
-                max_iter=self.config.get('max_iter', 20),
-                learning_method='batch'
+                max_iter=20,
+                learning_method='batch',
+                n_jobs=-1  # Use all CPU cores
             )
 
             self.model.fit(doc_term_matrix)
@@ -143,10 +156,97 @@ class TopicModel:
             logger.error("scikit-learn is required for LDA. Install with: pip install scikit-learn")
             raise
 
-    def _transform_lda(self, texts: List[str]) -> np.ndarray:
-        """Transform texts using LDA model."""
+    def _get_stop_words(self) -> list:
+        """Get stop words based on language setting."""
+        # Spanish stop words
+        spanish_stops = [
+            'el', 'la', 'de', 'que', 'y', 'a', 'en', 'un', 'ser', 'se', 'no', 'haber',
+            'por', 'con', 'su', 'para', 'como', 'estar', 'tener', 'le', 'lo', 'todo',
+            'pero', 'más', 'hacer', 'o', 'poder', 'decir', 'este', 'ir', 'otro', 'ese',
+            'la', 'si', 'me', 'ya', 'ver', 'porque', 'dar', 'cuando', 'él', 'muy',
+            'sin', 'vez', 'mucho', 'saber', 'qué', 'sobre', 'mi', 'alguno', 'mismo',
+            'yo', 'también', 'hasta', 'año', 'dos', 'querer', 'entre', 'así', 'primero',
+            'desde', 'grande', 'eso', 'ni', 'nos', 'llegar', 'pasar', 'tiempo', 'ella',
+            'sí', 'día', 'uno', 'bien', 'poco', 'deber', 'entonces', 'poner', 'cosa',
+            'tanto', 'hombre', 'parecer', 'nuestro', 'tan', 'donde', 'ahora', 'parte',
+            'después', 'vida', 'quedar', 'siempre', 'creer', 'hablar', 'llevar', 'dejar',
+            'nada', 'cada', 'seguir', 'menos', 'nuevo', 'encontrar', 'algo', 'solo',
+            'decir', 'pueden', 'cómo', 'fue', 'era', 'son', 'tiene', 'fue', 'esta',
+            'sus', 'los', 'las', 'del', 'una', 'al', 'es', 'ha', 'son', 'estoy', 'eres'
+        ]
+
+        # English stop words
+        english_stops = [
+            'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from', 'has',
+            'he', 'in', 'is', 'it', 'its', 'of', 'on', 'that', 'the', 'to', 'was',
+            'will', 'with', 'this', 'but', 'they', 'have', 'had', 'what', 'when',
+            'where', 'who', 'which', 'why', 'how', 'i', 'you', 'we', 'can', 'do',
+            'if', 'not', 'or', 'so', 'up', 'out', 'just', 'now', 'get', 'like'
+        ]
+
+        # Common symbols and emojis
+        common_stops = ['http', 'https', 'www', 'com', 'gt', 'lt']
+
+        if self.language == 'spanish':
+            return spanish_stops + common_stops
+        elif self.language == 'english':
+            return english_stops + common_stops
+        elif self.language == 'multilingual':
+            return spanish_stops + english_stops + common_stops
+        else:
+            return common_stops
+
+    def _fit_nmf(self, texts: List[str]) -> None:
+        """Fit NMF model (similar to LDA but non-negative matrix factorization)."""
+        try:
+            from sklearn.feature_extraction.text import TfidfVectorizer
+            from sklearn.decomposition import NMF
+
+            # Get stop words based on language
+            stop_words = self._get_stop_words()
+
+            # Vectorize texts with TF-IDF
+            self.vectorizer = TfidfVectorizer(
+                max_df=0.85,
+                min_df=2,
+                max_features=1000,
+                stop_words=stop_words,
+                token_pattern=r'(?u)\b\w\w+\b',
+                lowercase=True
+            )
+
+            doc_term_matrix = self.vectorizer.fit_transform(texts)
+            self.feature_names = self.vectorizer.get_feature_names_out()
+
+            logger.info(f"Vocabulary size: {len(self.feature_names)}")
+
+            # Fit NMF
+            self.model = NMF(
+                n_components=self.n_topics,
+                random_state=42,
+                max_iter=200
+            )
+
+            self.model.fit(doc_term_matrix)
+
+        except ImportError:
+            logger.error("scikit-learn is required for NMF. Install with: pip install scikit-learn")
+            raise
+
+    def _transform_lda(self, texts: List[str]) -> Dict[str, Any]:
+        """Transform texts using LDA/NMF model."""
         doc_term_matrix = self.vectorizer.transform(texts)
-        return self.model.transform(doc_term_matrix)
+        topic_dist = self.model.transform(doc_term_matrix)
+
+        # Get dominant topic and probability for each document
+        topics = topic_dist.argmax(axis=1).tolist()
+        probabilities = topic_dist.max(axis=1).tolist()
+
+        return {
+            'topics': topics,
+            'probabilities': probabilities,
+            'distributions': topic_dist
+        }
 
     def _fit_bertopic(self, texts: List[str]) -> None:
         """Fit BERTopic model."""
@@ -170,33 +270,33 @@ class TopicModel:
         topics, probs = self.model.transform(texts)
         return probs
 
-    def get_topics(self) -> Dict[int, List[Tuple[str, float]]]:
+    def get_topics(self) -> Dict[int, List[str]]:
         """
         Get topics with their top words.
 
         Returns:
-            Dictionary mapping topic ID to list of (word, weight) tuples
+            Dictionary mapping topic ID to list of top words
 
         Example:
             >>> topics = model.get_topics()
             >>> for topic_id, words in topics.items():
-            ...     print(f"Topic {topic_id}: {', '.join([w[0] for w in words[:5]])}")
+            ...     print(f"Topic {topic_id}: {', '.join(words[:5])}")
         """
         if self.model is None:
             raise ValueError("Model not fitted. Call fit() first.")
 
-        if self.algorithm == 'LDA':
+        if self.backend in ['lda', 'nmf']:
             return self._get_lda_topics()
-        elif self.algorithm == 'BERTopic':
+        elif self.backend == 'bertopic':
             return self._get_bertopic_topics()
 
-    def _get_lda_topics(self) -> Dict[int, List[Tuple[str, float]]]:
-        """Get LDA topics."""
+    def _get_lda_topics(self) -> Dict[int, List[str]]:
+        """Get LDA/NMF topics."""
         topics = {}
 
         for topic_idx, topic in enumerate(self.model.components_):
             top_indices = topic.argsort()[-self.n_words_per_topic:][::-1]
-            top_words = [(self.feature_names[i], topic[i]) for i in top_indices]
+            top_words = [self.feature_names[i] for i in top_indices]
             topics[topic_idx] = top_words
 
         return topics

@@ -7,6 +7,19 @@
 
 import os
 import sys
+from pathlib import Path
+
+# 加载 .env 文件
+try:
+    from dotenv import load_dotenv
+    env_file = Path(__file__).parent / '.env'
+    if env_file.exists():
+        load_dotenv(env_file)
+        print("✅ 已加载 .env 文件")
+except ImportError:
+    print("⚠️  python-dotenv 未安装，将只检查系统环境变量")
+except Exception as e:
+    print(f"⚠️  加载 .env 文件时出错: {e}")
 
 def test_api_key():
     print("\n" + "="*70)

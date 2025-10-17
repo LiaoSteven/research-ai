@@ -25,6 +25,13 @@ import os
 import json
 from datetime import datetime
 
+# 加载 .env 文件
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # 导入我们的模块
 import services.youtube_collector as yt_module
 YouTubeCollector = yt_module.YouTubeCollector

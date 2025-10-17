@@ -13,7 +13,13 @@
       "Bash(git remote set-url:*)",
       "Read(//home/steven/.ssh/**)",
       "Bash(git commit:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(bash:*)",
+      "Bash(source:*)"
     ],
     "deny": [],
     "ask": []

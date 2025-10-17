@@ -1,0 +1,63 @@
+{
+  "0": {
+    "name": "Destiny Game Discussion",
+    "name_zh": "Destiny游戏讨论",
+    "description": "Comments about Destiny game, accounts, upgrades, and gameplay",
+    "keywords": [
+      "account",
+      "foltyn",
+      "destiny",
+      "upgrade",
+      "rising"
+    ]
+  },
+  "1": {
+    "name": "Gaming & Pokemon",
+    "name_zh": "游戏与宝可梦",
+    "description": "General gaming discussion, Pokemon, zombies mode",
+    "keywords": [
+      "pokemon",
+      "game",
+      "zombies",
+      "better",
+      "play"
+    ]
+  },
+  "2": {
+    "name": "Cazzu Music & Culture",
+    "name_zh": "Cazzu音乐与文化",
+    "description": "Comments about Cazzu (artist), music, Spanish content",
+    "keywords": [
+      "cazzu",
+      "music",
+      "hermosa",
+      "mujer",
+      "song"
+    ]
+  },
+  "3": {
+    "name": "Gaming Technical",
+    "name_zh": "游戏技术讨论",
+    "description": "Technical gaming discussion, timestamps, specific players",
+    "keywords": [
+      "josh",
+      "jandel",
+      "omega",
+      "owner",
+      "11:34"
+    ]
+  },
+  "4": {
+    "name": "General Engagement",
+    "name_zh": "通用互动讨论",
+    "description": "Mixed general discussion with high engagement",
+    "keywords": [
+      "this",
+      "like",
+      "game",
+      "looks",
+      "people",
+      "good"
+    ]
+  }
+}

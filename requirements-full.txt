@@ -1,0 +1,40 @@
+# Full Dependencies (including advanced ML models)
+# Install for complete functionality including transformers and BERTopic
+
+# Core (from requirements-minimal.txt)
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+pandas>=2.0.0
+numpy>=1.24.0
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+pyarrow>=14.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Advanced NLP and Deep Learning
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+
+# Advanced Topic Modeling
+bertopic>=0.16.0
+sentence-transformers>=2.2.0
+
+# Time Series Analysis
+prophet>=1.1.0
+
+# Development Tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.1.0

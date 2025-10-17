@@ -1,0 +1,27 @@
+# Minimal Core Dependencies
+# Install only what's needed to run basic functionality
+
+# Configuration and environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# YouTube Data Collection
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+
+# Basic ML and NLP
+scikit-learn>=1.3.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Data export (Parquet support)
+pyarrow>=14.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0

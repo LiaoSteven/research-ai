@@ -1,0 +1,73 @@
+# research-ai Configuration File
+
+# YouTube Data API Settings
+youtube:
+  api_key: ${YOUTUBE_API_KEY}
+  max_results_per_request: 100
+  include_replies: true
+  page_token_limit: 10
+
+# Rate Limiting
+rate_limit:
+  requests_per_second: 1
+  daily_quota: 10000
+  retry_attempts: 3
+  retry_delay: 5
+
+# Data Collection
+data_collection:
+  video_types:
+    - ai_generated
+    - non_ai
+  ai_keywords:
+    - "AI生成"
+    - "AI制作"
+    - "人工智能"
+    - "ChatGPT"
+    - "AI创作"
+  min_comments: 10
+  max_comments_per_video: 100
+
+# Data Preprocessing
+preprocessing:
+  remove_spam: true
+  remove_duplicates: true
+  min_comment_length: 5
+  max_comment_length: 1000
+  language_filter: ["zh", "zh-CN", "zh-TW"]
+
+# Sentiment Analysis
+sentiment:
+  model_name: "bert-base-chinese"
+  batch_size: 32
+  max_length: 512
+  device: "cuda"  # or "cpu"
+  confidence_threshold: 0.7
+
+# Topic Modeling
+topic_modeling:
+  algorithm: "LDA"  # Options: LDA, BERTopic
+  n_topics: 10
+  n_words_per_topic: 10
+  min_df: 5
+  max_df: 0.95
+
+# Time Series Analysis
+time_series:
+  start_date: "2022-01-01"
+  aggregation: "monthly"  # Options: daily, weekly, monthly, quarterly
+
+# Output Settings
+output:
+  base_dir: "output"
+  figures_dir: "output/figures"
+  reports_dir: "output/reports"
+  format: "pdf"  # Options: pdf, html, markdown
+
+# Logging
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/research-ai.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5

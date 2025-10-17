@@ -19,7 +19,8 @@
       "Bash(pip install:*)",
       "Bash(chmod:*)",
       "Bash(bash:*)",
-      "Bash(source:*)"
+      "Bash(source:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

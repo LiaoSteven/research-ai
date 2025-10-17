@@ -1,0 +1,205 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# AI/ML specific
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.model
+*.weights
+*.bin
+
+# Model files (large files - adjust as needed)
+models/trained/*.pt
+models/trained/*.pth
+models/trained/*.h5
+models/trained/*.onnx
+models/checkpoints/*.pt
+models/checkpoints/*.pth
+
+# Data files (large datasets)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.txt
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.parquet
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/temp/.gitkeep
+
+# Experiment tracking
+experiments/results/*
+!experiments/results/.gitkeep
+experiments/logs/*
+!experiments/logs/.gitkeep
+.mlruns/
+mlruns/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Output files (adjust as needed)
+output/*.png
+output/*.jpg
+output/*.pdf
+output/*.html
+output/*.csv
+output/*.json
+!output/.gitkeep
+
+# Notebook outputs (keep notebooks but ignore output)
+# Uncomment if you want to track notebooks without outputs
+# *.ipynb
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Config files with sensitive data
+config/secrets.yaml
+config/credentials.json
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Backup files
+*~
+\#*\#
+.#*

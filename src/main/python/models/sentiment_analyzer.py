@@ -108,19 +108,62 @@ class SentimentAnalyzer:
             raise
 
     def _initialize_simple(self) -> None:
-        """Initialize simple rule-based sentiment analyzer."""
+        """Initialize simple rule-based sentiment analyzer with multilingual support."""
         # Simplified Chinese sentiment lexicon
-        self.positive_words = {
+        self.positive_words_chinese = {
             '好', '棒', '赞', '喜欢', '爱', '优秀', '精彩', '完美', '厉害',
             '牛', '强', '美', '帅', '漂亮', '可爱', '有趣', '搞笑', '感动'
         }
 
-        self.negative_words = {
+        self.negative_words_chinese = {
             '差', '烂', '讨厌', '恶心', '垃圾', '无聊', '糟糕', '失望',
             '难看', '丑', '假', '骗', '坑', '傻', '蠢', '弱'
         }
 
-        logger.info("Simple rule-based sentiment analyzer initialized")
+        # Spanish sentiment lexicon
+        self.positive_words_spanish = {
+            'bueno', 'bien', 'excelente', 'genial', 'increíble', 'hermoso', 'hermosa',
+            'maravilloso', 'fantástico', 'perfecto', 'amor', 'amo', 'encanta', 'bella',
+            'bello', 'lindo', 'linda', 'guapo', 'guapa', 'bonito', 'bonita',
+            'gracias', 'feliz', 'felicidades', 'alegre', 'alegría', 'reina', 'rey',
+            'admirable', 'espectacular', 'fascinante', 'impresionante', 'mejor',
+            'tremendo', 'temon', 'jefa', 'jefe'
+        }
+
+        self.negative_words_spanish = {
+            'malo', 'mala', 'peor', 'horrible', 'terrible', 'triste', 'tristeza',
+            'feo', 'fea', 'odio', 'disgusto', 'aburrido', 'aburrida', 'pesimo',
+            'pésimo', 'basura', 'porquería', 'asco', 'desastre', 'error',
+            'mentiroso', 'mentirosa', 'falso', 'falsa'
+        }
+
+        # English sentiment lexicon
+        self.positive_words_english = {
+            'good', 'great', 'excellent', 'amazing', 'awesome', 'beautiful',
+            'wonderful', 'fantastic', 'perfect', 'love', 'like', 'best',
+            'happy', 'joy', 'incredible', 'brilliant', 'superb'
+        }
+
+        self.negative_words_english = {
+            'bad', 'worse', 'worst', 'terrible', 'horrible', 'awful',
+            'ugly', 'hate', 'sad', 'boring', 'sucks', 'garbage',
+            'trash', 'disgusting', 'liar', 'fake', 'fraud'
+        }
+
+        # Combine all lexicons
+        self.positive_words = (
+            self.positive_words_chinese |
+            self.positive_words_spanish |
+            self.positive_words_english
+        )
+
+        self.negative_words = (
+            self.negative_words_chinese |
+            self.negative_words_spanish |
+            self.negative_words_english
+        )
+
+        logger.info("Simple rule-based sentiment analyzer initialized with multilingual support")
 
     def analyze(self, text: str) -> Dict[str, Any]:
         """
@@ -268,9 +311,12 @@ class SentimentAnalyzer:
             return [{'sentiment': 'neutral', 'confidence': 0.0, 'scores': {}, 'error': str(e)} for _ in texts]
 
     def _analyze_with_simple(self, text: str) -> Dict[str, Any]:
-        """Analyze using simple rule-based approach."""
-        positive_count = sum(1 for word in self.positive_words if word in text)
-        negative_count = sum(1 for word in self.negative_words if word in text)
+        """Analyze using simple rule-based approach with case-insensitive matching."""
+        # Convert to lowercase for case-insensitive matching
+        text_lower = text.lower()
+
+        positive_count = sum(1 for word in self.positive_words if word.lower() in text_lower)
+        negative_count = sum(1 for word in self.negative_words if word.lower() in text_lower)
 
         total = positive_count + negative_count
 

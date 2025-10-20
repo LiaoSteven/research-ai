@@ -38,7 +38,10 @@ except ImportError:
     pass
 
 # 导入模块
-from src.main.python.services.youtube_collector import YouTubeCollector
+try:
+    from services.youtube_collector import YouTubeCollector
+except ImportError:
+    from src.main.python.services.youtube_collector import YouTubeCollector
 
 
 class AIContentDetector:

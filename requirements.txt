@@ -1,49 +1,21 @@
-# Core Dependencies
-python-dotenv>=1.0.0
-pyyaml>=6.0.1
-pandas>=2.0.0
-numpy>=1.24.0
+# YouTube API
+google-api-python-client==2.108.0
 
-# Data Collection
-google-api-python-client>=2.100.0
-google-auth>=2.20.0
-google-auth-oauthlib>=1.0.0
-google-auth-httplib2>=0.2.0
+# Environment variables
+python-dotenv==1.0.0
 
-# NLP and ML (flexible versions for compatibility)
-scikit-learn>=1.3.0
-transformers>=4.30.0
-torch>=2.0.0
-tokenizers>=0.13.0
+# Data processing
+pandas==2.1.4
+numpy==1.26.2
 
-# Topic Modeling (optional - can be installed separately if needed)
-# bertopic>=0.16.0
-# sentence-transformers>=2.2.0
-
-# Data Processing
-pyarrow>=14.0.0
-# fastparquet>=2023.10.0  # Optional - parquet support via pyarrow
+# NLP and ML
+transformers==4.35.2
+torch==2.1.1
+scikit-learn==1.3.2
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-plotly>=5.14.0
+matplotlib==3.8.2
+seaborn==0.13.0
 
-# Time Series Analysis (optional - heavy dependency)
-# prophet>=1.1.0
-
-# Logging and Utilities
-tqdm>=4.65.0
-# loguru>=0.7.0  # Optional - standard logging works fine
-
-# Development and Testing (optional - install separately for dev)
-# pytest>=7.4.0
-# pytest-cov>=4.1.0
-# black>=23.0.0
-# flake8>=6.0.0
-# mypy>=1.5.0
-
-# Jupyter Notebooks (optional - install separately if needed)
-# jupyter>=1.0.0
-# jupyterlab>=4.0.0
-# ipywidgets>=8.1.0
+# Text processing
+nltk==3.8.1

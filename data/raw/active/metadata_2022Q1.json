@@ -1,0 +1,1567 @@
+{
+  "collection_timestamp": "2025-10-20T20:39:24.705655",
+  "total_comments": 6280,
+  "ai_comments": 1821,
+  "non_ai_comments": 4459,
+  "overall_ai_ratio": 0.28996815286624206,
+  "quarter_stats": [
+    {
+      "quarter": "2022Q1",
+      "start_date": "2022-01-01T00:00:00",
+      "end_date": "2022-03-31T00:00:00",
+      "target_comments": 6250,
+      "collected_comments": 6250,
+      "videos_processed": 212,
+      "ai_videos": 68,
+      "non_ai_videos": 163,
+      "ai_comments": 1821,
+      "non_ai_comments": 4429,
+      "detection_details": [
+        {
+          "video_id": "Zc-eLHlCjhc",
+          "title": "I need your love / I need your time #tonniartandcr",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "l761x7EdsHc",
+          "title": "Chaukhadi2107 | Ý Tưởng Trang Trí Tiêu Đề #shorts ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "KP2ZgRVokQE",
+          "title": "XXX Trends|#deodorant #fragrance #xxxtrends #reels",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 26
+        },
+        {
+          "video_id": "tzluMWgVgko",
+          "title": "HOW FAST CAN YOU GUESS THIS? 😲 Digital Art #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "HCH_dN_BXkw",
+          "title": "Last minute Birthday Card Idea 🥳🎂 #shorts Creative",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "zLDqTOLlpVo",
+          "title": "Army Punishment #shorts #running #viral #video",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Bj3dQgtffcc",
+          "title": "A MELHOR TRANSIÇÃO DE MAKE DO MOMENTO!! #shorts #h",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Z80HVm7ajfg",
+          "title": "Artists First Song Vs. Most Popular Song: Post Mal",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Etob8gWui9o",
+          "title": "DESPACITO slowed trending/viral tiktok/reel by MIX",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "nk-EySAl1vc",
+          "title": "Cool way to style your t-shirt 😍🤍🌸😱 #fashion #sume",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "6cgOGyBVUAM",
+          "title": "Mini \"Encanto\" Recap Cartoon! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "qBClWvj0Xvc",
+          "title": "trapped souls 💀 #shorts #creepy #nightmare",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Y_JiJ4WyHbQ",
+          "title": "Reels 📸 Instagram Sab 🆕 Viral Videos |# VK_ BAVALI",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "reLITMhsKck",
+          "title": "When You Get Called For Supper During A Game #Shor",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "2YbqO0yNjhQ",
+          "title": "Pottery Bloopers and the Destruction of Pots (#Sho",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "utGhIzOM5DI",
+          "title": "Bandar aur kutte ki comedy funny video like share ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "4pVaDM_BwIA",
+          "title": "what a prayer.. 😁😁",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "hVaNfVagHuQ",
+          "title": "Creative Art Surprise Drawing 🍉🍓#art #shorts #draw",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Ifm52Z6mfAs",
+          "title": "Indigo | Color Mixing Tutorial | #painting  #short",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Ew6_sNs-wjo",
+          "title": "blooper🤣🤣🤣#trending #viral #diyafavas #couples #sh",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "-jHTyziLfTg",
+          "title": "Jhon Deere Mini Tractor E120 #technology#modified ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "_BdZ8gLfDYY",
+          "title": "Pehli Video Call 🥰 ( Arrange Marriage Wala Ishq) #",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "xBNwJRfqeTk",
+          "title": "Is video ke liye ek like toh banta hai ❤️😭 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "g3ztxNGi2HM",
+          "title": "पापा का जन्मदिन  Emotional Short Video 😫 l Sonam P",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "73VpmWdR26k",
+          "title": "Yeh kya kardiya isne😂 ~ Most viral comedy video😂 |",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "wlyXg3ELbSU",
+          "title": "Flare Tutorial Alex Destreza #acrobatics #gymnasti",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "WRzW-WvTUSg",
+          "title": "Glowy Fox Eye Makeup Look ✨ Makeup Tutorial from P",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "L4NFNeHyEyY",
+          "title": "#shorts ❤️🥰💯🥰❤️💓#videos #trending #lovesong#youtub",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "oTWVO2af8T0",
+          "title": "How To Fix The Fortnite Item Shop! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "AIEHuEsih3Y",
+          "title": "Gender reveal predictions #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "okQo_TdHe-A",
+          "title": "Creative Indoor Transition Ideas With Phone 🔥 #sho",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "NA8_IQ5zZ0k",
+          "title": "#shorts GIANT RABBIT PLUSH TOY -omgkawaii.com #you",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "37WrsQm0-I8",
+          "title": "TUTORIAL NGAMBIL KELERENG DARI BOTOL🙆🏻‍♀️ tanpa ha",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "M6DAQo9i7oM",
+          "title": "Minecraft but I'm a Pancake #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "LPRxw559gRo",
+          "title": "I Need Your Love / I Need Your Time #Shorts #Mukta",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "X87pIoxbLME",
+          "title": "How To Improve Your Youtube Channel Seo - Youtube ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Z6DVA1mLPTA",
+          "title": "Would You Buy This Overpriced Gadget From Khaby La",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "041QCAxlw_E",
+          "title": "Spicy Food Mukbang and Pranks! | TikTok Funny Vide",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "wv_8cOzoF5k",
+          "title": "ENCANTO LIMBO CHALLENGE! 😂 #shorts LankyBox TikTok",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "qZfM0e2euy0",
+          "title": "Egg Shells Craft | Best Out Of Waste Egg Shells #s",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "KBusGyZFWR0",
+          "title": "Pepsi can creative photography trick#shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "2fe93o_zLgE",
+          "title": "What is World’s Strongest Alcohol 🤯🤪 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "A3LFNobVQp8",
+          "title": "WATCH UNTIL THE END 💀😳😂 #shorts #viral",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Uk2-WVxMXEQ",
+          "title": "Beautiful Cardboard Wall Hanging #shorts #youtubes",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "U8aAU9Jsvog",
+          "title": "CLEAN AFTER EATING SNACK #mayamax #cocometa",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "o0Sg1IJLTBI",
+          "title": "Drawing with oil pastel / Moonlight night scenery ",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "hc01PF9axWM",
+          "title": "CRIANÇAS FAZENDO TUTORIAL DE MAQUIAGEM - bárbara c",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "CQiZz0UxfuM",
+          "title": "Barbie cozinheira? Receita de pipoca 🍿 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "BSrKZKBtFWI",
+          "title": "Baby Nail Cutter | Best Product Baby | Baby stuff ",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "pRsk7bYGerE",
+          "title": "Student Teacher Funny Jokes in English - 1 Minutes",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 24
+        },
+        {
+          "video_id": "8uF0CIaqszM",
+          "title": "11 Great Books for Learning English at Home #short",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "IQ_moENk94g",
+          "title": "🤣🤣🤣 #trending #viral #diyafavas #couples #shorts #",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "9DgtpPFSUrg",
+          "title": "Save Water || Emotional Video || #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "tjIXu_BmZUU",
+          "title": "thanks for 21million🙏DIY SLIPPERS How to make slip",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "A5QB90lXdyY",
+          "title": "Does Primer Really Work? #Shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "XjarvY4zw84",
+          "title": "The King - Frame Order Cartoon Box Parody - Hilari",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "DK39B3PQd_8",
+          "title": "Meesho Study table #meesho #unboxing #shorts #tren",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "q6jxIO_lXCQ",
+          "title": "Arinaga Family - Rebutan Kamar Mandi (Short Video ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "YxeQpD7iaVM",
+          "title": "#tatatata #tatatata #viral #shorts 😱😱😇😇🤘",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "txCvNcnoo44",
+          "title": "Never Take Two Trips 🤨 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "TB6ctjf8WrY",
+          "title": "Aishwarya Rai Clever Reply To Oprah Winfrey #aishw",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "EChrsxcLJKg",
+          "title": "👉 PULLING A HANGNAIL 👉 Photography Tutorial in #Sh",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "yxLPyUMfNc0",
+          "title": "zip line….. #shimla #kufri #zipline #shorts #youtu",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "onQnlEOeDlM",
+          "title": "possesive🤣🤣#trending #viral #diyafavas #couples #s",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "CjUnyEZxLj8",
+          "title": "TikTok'ta 10 Milyon İzlenen Videom #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3zpgYjE9ANI",
+          "title": "#sreetan Cute Maatalu 🥰 #maithilisreetan #sreetana",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "eTKnNRtj01o",
+          "title": "Creative satisfying art #shorts #funart #tombow",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Yd4sMwdC_-Y",
+          "title": "Indian Common Krait Snake.  (High Poisonous ). #Sh",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "xIUVq4dQkpU",
+          "title": "😮Tried Viral Chilli Garlic Maggi Recipe #shorts #m",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "WbDOByBXdbc",
+          "title": "SATISFYING CONTOUR BLENDING VIDEO!!! | Sydney Morg",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "qiXMm-nP6bs",
+          "title": "WILD Broken Chair Prank! 🤯 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "QyYb5oPrDYo",
+          "title": "SAYING A BAD WORD IN CLASS😳😭😂 #shorts #viral",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "LCiF6GWgo5U",
+          "title": "Creative Art Emoji Mix           🤮+💩+🌈❓ #art #shor",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "K8CY6_2D2oM",
+          "title": "17 more times Elmo was a COMPLETE savage - liv pea",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "rC1D4V6iiAY",
+          "title": "Inside a $2 Million RV 😍 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "RiOqgmmcSvc",
+          "title": "Dumb Things People Say (Part 25) #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "s28BDiWzw7s",
+          "title": "人間がスライムの沼に落ちると…. #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "UvgfeWygsCU",
+          "title": "Mercuri_88 Shorts - Netflix remix",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "brcRoAIMXWE",
+          "title": "Creative Photography Tips and Trick with Phone usi",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "O4i-KNUfeFs",
+          "title": "My art in Class vs At home | Artcoaster #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3UhyQbPbaos",
+          "title": "My first time trying Indomie Noodles #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "s2r_qe-P08A",
+          "title": "Aphmau's Science EXPERIMENT! #animated #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "GLqcQgO3--o",
+          "title": "Jokes To Tell Your Friends That Will Make You Laug",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "7i7EtQjB7n8",
+          "title": "Dark humor at it’s finest 😌 #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "L9k_weOlyv8",
+          "title": "WASIL Funny Video 😂😂😂 Time Warp Scan #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "bo3r_lbFZBU",
+          "title": "NEVER HIDE WITH SIBLINGS, IT WONT END WELL🤢😂 #shor",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3C31aeun0tg",
+          "title": "Wait for End 🥺 #youtubeshorts #ytshorts #shorts #f",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "zZpHnC2teMM",
+          "title": "3 realistic ankha cats dance meme",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "nvjJzjQfHQo",
+          "title": "TIPOS DE MARCA TEXTO #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "BOSlup0mor4",
+          "title": "Low Budget Ceiling Fan Trick #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "on1MUJB4iQw",
+          "title": "The BEST Wireless Mic? #Shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "VJ_fPylf8r4",
+          "title": "This is the best show ASMR video | #Shorts ep385",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "tp_xOBoi_VU",
+          "title": "Mobile Cover Craft #shorts #viral #youtubeshorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "5zrwtIMOq3s",
+          "title": "which colour do you like? 😉 ( i could be red ❤️ or",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "ZhdrNFugK_U",
+          "title": "Reels Trend with All of Them ❤️ #shorts | Harpreet",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Foe2T2NsqN0",
+          "title": "Enga ponnalum one by two tha 😂🔥 #mabucrush #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "yHhaTYYWlUM",
+          "title": "Kacha Badam viral girl| Kacha Badam song 😲🔥| Anjal",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Jlc-JpnDLt8",
+          "title": "$1000 vs $35 OTF Switchblade #shorts #youtubeshort",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Y4N-0kzbkuA",
+          "title": "Soft pastel Drawing : tutorial #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "tm87PdRmPjA",
+          "title": "#shorts#BABA RAMDEV KA CHELA #viral video",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "7c3-Gei5j4w",
+          "title": "Chaand Baaliyan – Aditya A. | Trending Song | Offi",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "0yD7e91TFOc",
+          "title": "[FNAF security breach] light on #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "MRl1k1xxLuM",
+          "title": "7 year old artist!!! 🤯🤯 #artist #shorts #milaandem",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "aji6Q7NRY28",
+          "title": "You Guys Want Me To Say Ara Ara?",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "IsZgLGj53bc",
+          "title": "Viral transition tutorial / mks latest video on ti",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "nUNoG7xuSJM",
+          "title": "💈💥Mechas gris plata Tutorial 💥💈👀 observa paso a pa",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "XM4YlnsQXN8",
+          "title": "IDEA DE SEPARADOR💘🧚🏻‍♀️ #shorts #lettering #short",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "CzKpFEKFYuU",
+          "title": "iPhone vs Android - Which can survive a CAR? 🚗",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "uPqztDKveG8",
+          "title": "🤣🤣🤣🤣🤣#diyafavas #trending #shorts #viral #couples ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "kIN-bifMh2k",
+          "title": "friends 🤝#trending #viral #viral #diyafavas #coupl",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "AfmCb114PqY",
+          "title": "Earbuds Craft | Wall Hanging #shorts #youtubeshort",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "CfuABvFuvZY",
+          "title": "Appearing Balls Magic Tutorial #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3arpWsuwqBg",
+          "title": "Sketchbook tour! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "wkNv7mLcbxY",
+          "title": "Cool Water Transition Without Waterpoof Phone #sho",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "IaKu2betz9U",
+          "title": "Creative Art Surprise Drawing 🥕🐰 #art #shorts #dra",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "xGlWPZO8Hsw",
+          "title": "GWIYOMI CHALLENGE 2022 / KIYOMI DANCE  #shorts #20",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "QsWYYzKsyAg",
+          "title": "Amazing VIDEOGRAPHY Tricks With Mobile 😍 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "yXumwTtR1Hk",
+          "title": "The Most beautiful moment of every girl’s life #yo",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Ij_0gxbzxXo",
+          "title": "Drawing Pac-Man With a Piano (Live MIDI Art)",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "k3CPoSy6t1A",
+          "title": "A Sad Cat and Dog song | tootymcnooty #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "G0kYiE3OCYc",
+          "title": "This is the best show ASMR video | #Shorts ep709",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "OtN4q3_qOWc",
+          "title": "What is Ghost Ice 🥶🧊 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "uCpUxucC1Ds",
+          "title": "How To Grow Taller ☝🏼 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "XaeXaNcFPiA",
+          "title": "Five Nights at Freddy’s: Security Breach vs SugarC",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "SJnByT8DEe4",
+          "title": "What a Smart Cat! Make beef by strawberries!  | Cr",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "EpTRO4ePL04",
+          "title": "You Have To Drink Unlimited Water to Survive #funn",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "zyzEZ_sCfJI",
+          "title": "Hit Like for this One 👍🏻💯💝 #shorts #youtubeshorts ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "DkiZhRHdmtQ",
+          "title": "DIS HAND!!🖐🏽😡😂 #shorts #viral",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "E6ddZMbvEUg",
+          "title": "😱 Original Mowgli | യഥാർത്ഥ മൗഗ്ലിയെ കണ്ടെത്തി | R",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Ovg9Khx_WCo",
+          "title": "[Cuphead show] your new no.1 #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "GU_m4s0AEDs",
+          "title": "Tufting a Rug for Ukraine (ASMR)",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "uXPTbQEGGOY",
+          "title": "Hay algo en mi OJO👁️.#shorts #primerosauxilios #tu",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "GHjpZyhUfrM",
+          "title": "Minecraft Speedrunners Be Like #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "a1mjJdZrJj8",
+          "title": "Minecraft but NO TALKING ABOUT BRUNO #Shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "hG-hCupJTS8",
+          "title": "Sachin Tendulkar wife in Ranthambhore national par",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 10
+        },
+        {
+          "video_id": "YBHO0O0l5Qg",
+          "title": "Kis Kis ko sukoon mila #comedy #rjkarishma",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "NJ1nC_waCNg",
+          "title": "Truco ANILLO atascado.#shorts #tutorial #primerosa",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "LtiDP7TwIsE",
+          "title": "Wait for it!! Hair Salon END WRONG! 😱 Extra FUNNY!",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "nH2fGa90b-Y",
+          "title": "Ice cream cup reuse idea #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "dKS-5eJY-As",
+          "title": "🤣😝😝 #diyafavas #trending #viral #shorts #couples #",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3SOfU4p5DTY",
+          "title": "Immunity Booster Juice | Goooseberry/Amla Beetroot",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "jikcB7_gj8A",
+          "title": "How Teachers Help You During Tests #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "LYceXj3eV-8",
+          "title": "Boyfriends 2D Fan Animation Short (Episode 31 & 32",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "HO_OgIDGva4",
+          "title": "अपने इस बेज्जती का बदला कैसे लेता है || ??.... || ",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "MjhdVrO5afU",
+          "title": "HAZ UN PASTEL ARCOÍRIS con MOCO #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "IiQt2gV3oLo",
+          "title": "Soap Box Craft #shorts #youtubeshorts #viral",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "wADA4Ulbf5E",
+          "title": "🥰cute korean couple Dance video 🥰🥰#shorts #youtube",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "9zyk2dHlY6I",
+          "title": "PAPER CUP HELICOPTER😃 #Shorts #YouTubeShorts #Tren",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "QHtwRd7FyeU",
+          "title": "Trending ❤️😍 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "fOeJu7QUaec",
+          "title": "Beautiful Paper Flower Wall Hanging #shorts #youtu",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "5s0GO2VFqWY",
+          "title": "Face Mask ➡️ Hand Glove #shorts #youtubeshorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "HWEODlGQmC4",
+          "title": "my most expensive pc building mistake... #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "-VuPUG6qhkM",
+          "title": "How to Make Adventure Time Sandwich",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "-k-OP5SyIC8",
+          "title": "My art before COVID vs after…",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Zu_gwSbIGVk",
+          "title": "Bully Maguire handmade from polymer clay #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "LnO8uPk5xhI",
+          "title": "Wart Removal at Skinaa Clinic #Wart #removal #skin",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "6ogTVf-o2Rw",
+          "title": "I Wanna Be Bigger! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "MyAHhwbQYQU",
+          "title": "Aphmau Is SAD!  #animated #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "knB7RkiIRWM",
+          "title": "punjabi couples song#shorts #punjabimarriage #beau",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "ggmKMze5N9g",
+          "title": "Aphmau IS HURT! #animated #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "uQdky6z1YGM",
+          "title": "You reap what you sow #animation #shorts #drawing ",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "VkBIErH6WVQ",
+          "title": "Mini \"Luca\" Recap Cartoon! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "I78Cc4w41NQ",
+          "title": "How to put on a dress made of paper #shorts #fashi",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "4duWpEFDwjM",
+          "title": "Is Nick Digiovanni’s Bubble Gum Vodka Worth the Hy",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Xiz7h1TWWFg",
+          "title": "James Charles #viral #shorts #viralshorts #youtube",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "UT_ZZbnzoP8",
+          "title": "The moment that changed Joe Burrow 😮 | #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3I0E-Iw0PVA",
+          "title": "What are you scared of? #shorts @crazyfrog",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "HxZGPD6CY7c",
+          "title": "THOMAS THE TRAIN.EXE VS TRAIN EATER! (HORROR CARTO",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "umNaqQHuSdg",
+          "title": "Emoji Challenge - Popular Cartoon Animals | #Short",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "bG-2smZKmIg",
+          "title": "Replace the T with a D = Indian (Animation Meme)",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Gw9UrQgucCg",
+          "title": "Unique Valentine's Day Craft #shorts #youtubeshort",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "9aXSAMei5MY",
+          "title": "Kammo vs nammo part 2 😂 #shorts #comedy #aslimonao",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "gO8n-99cArc",
+          "title": "Poophead Gets Sick! 🤮 | emojitown #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3lv8kc6pkmw",
+          "title": "crane lifting excavator on the top of 20 storied b",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 19
+        },
+        {
+          "video_id": "MdcCLEV_RBQ",
+          "title": "adada adada💞#diyafavas #trending #shorts #viral #c",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "2O4mSNA6IQE",
+          "title": "Ghareeb Baap aur Khilone Wala || Emotional Video |",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "27qy1hS0cnY",
+          "title": "ASMR Mukbang | Spicy Food and Pranks! | TikTok Fun",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "KHKbFIV0TNc",
+          "title": "Mom’s Friend’s Son ❤️😂 | @RajGrover005 | #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "WpzZ709AM8w",
+          "title": "Euphoria #Shorts | I knew that looked familiar.",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "SYSClsBzibY",
+          "title": "Top 5 Brace Colors! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "-US2wE6gEa0",
+          "title": "You could be very successful without education - S",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 0
+        },
+        {
+          "video_id": "Ln1FkQHKWvA",
+          "title": "Why Japanese Glasses are SO EXPENSIVE 💡🥃 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "gtiYdaN-8H4",
+          "title": "5 SMALL Closet Organization MUST HAVES! #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "AJf9csHDk-Y",
+          "title": "Girl rejects boy then regrets it #sadanime #anime ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "YptVb2GLwkQ",
+          "title": "फ़ौजी😘 Indore Physical Academy shorts Video",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "c69btdMdXWM",
+          "title": "my most popular DIY: the fluted column! #productph",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 0
+        },
+        {
+          "video_id": "McwHHNDoKsk",
+          "title": "the villagers are up to something... #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "MN9QB4nVT2g",
+          "title": "chokra jaware || fake tweet || #short #shorts #sho",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Svh9AzJ6CGw",
+          "title": "Ambulance fire engine virus robot || Special effec",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "6xuEq0Qd6jQ",
+          "title": "Roman Reigns’ chair flip 🪑 #Short",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Heh9EkYQxVU",
+          "title": "Indians Are SuperSmart 😂🇮🇳 #turkishicecream #ytsho",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "YhL3hVV9l_g",
+          "title": "DOG PRANKS BROTHER! #prank #corgi",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "CkdC0dUw8VU",
+          "title": "DIY tie dye with Bleach 🤩👕 #shorts #art #tiedye #t",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "H-9qGWrW83M",
+          "title": "EASY PHOTO IDEA with EPIC RESULTS! 💦🤯 #photography",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "YBPK5EOkveE",
+          "title": "ஒருவேள வெட்டிடுவாரோ!! 🤣🤣🤣 | Kasimedu Fish cutting ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "lvKumPjMm7M",
+          "title": "Trending dance songs on instagram reels 2022 #shor",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "FsM00IZruFY",
+          "title": "Avengers Drawing Wait for RDJ 🔥#shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "qPYG49jazfA",
+          "title": "Onjo is actually immune to the virus 🤯 #shorts",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "84g2VZj_L6E",
+          "title": "Did You Know That Pink Lemons and Bubble Gum Vodka",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "SSzZdCZBJmk",
+          "title": "Halloween party #shorts#global#viral#halloween",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "1_DB_F1eYDc",
+          "title": "Creative illusion Videography Tricks With Airoplan",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "1nIOvY2UmjY",
+          "title": "mini Jcb and JCB3dx short video/#shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "0tzuTKAdf_s",
+          "title": "Traveling with Kids! Road Trip Hacks Part 1! | #SH",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Z1HOg-Ijs04",
+          "title": "Eating only the most popular Indian food for the e",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "a-Irozm9vLA",
+          "title": "Painting with DOMS brush pen || Sunset scenery pai",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "5XFgZOcPNrk",
+          "title": "Things NOT to say to an Irish Person  #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "ksRGMYZ6aEo",
+          "title": "Why Is This Viral Song “Che La Luna” So Familiar? ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "z0BwEgJtF2g",
+          "title": "Creative Lighters Collection #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "qr5QN4h8qF4",
+          "title": "i tried viral eyeliner hack |Yashasvi Rajpoot | #m",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "SyB5jjBrqHE",
+          "title": "Ring light transition!! #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "wPl6NJFEfoU",
+          "title": "Oo Antavaa🔥 #pushpa #srivalli #ooantavaooooantava ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "jj7HK7eXcnA",
+          "title": "Mejores reacciones de entrada de boda ❤️ #Shorts #",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 21
+        }
+      ]
+    },
+    {
+      "quarter": "2022Q2",
+      "start_date": "2022-04-01T00:00:00",
+      "end_date": "2022-06-30T00:00:00",
+      "target_comments": 6250,
+      "collected_comments": 30,
+      "videos_processed": 1,
+      "ai_videos": 1,
+      "non_ai_videos": 8,
+      "ai_comments": 0,
+      "non_ai_comments": 30,
+      "detection_details": [
+        {
+          "video_id": "OYEk2IbeUaQ",
+          "title": "Sun koolaaru 💥🔥🤣 Funny shorts | Goutham | #trendin",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        }
+      ]
+    },
+    {
+      "quarter": "2022Q3",
+      "start_date": "2022-07-01T00:00:00",
+      "end_date": "2022-09-30T00:00:00",
+      "target_comments": 6250,
+      "collected_comments": 0,
+      "videos_processed": 0,
+      "ai_videos": 0,
+      "non_ai_videos": 0,
+      "ai_comments": 0,
+      "non_ai_comments": 0,
+      "detection_details": []
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "collection_stats": {
+    "total_videos_searched": 516,
+    "total_comments_collected": 6280,
+    "ai_videos": 69,
+    "non_ai_videos": 171,
+    "detection_failures": 118,
+    "quarters_completed": 3
+  },
+  "files": {
+    "all_comments": "data/raw/comments_natural_distribution_20251020_203923.json",
+    "ai_comments": "data/raw/comments_ai_20251020_203923.json",
+    "non_ai_comments": "data/raw/comments_non_ai_20251020_203923.json"
+  }
+}

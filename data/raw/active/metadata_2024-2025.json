@@ -1,0 +1,414 @@
+{
+  "collection_timestamp": "2025-10-20T20:04:58.581692",
+  "total_comments": 1000,
+  "ai_comments": 180,
+  "non_ai_comments": 820,
+  "overall_ai_ratio": 0.18,
+  "quarter_stats": [
+    {
+      "quarter": "2024Q1",
+      "start_date": "2024-01-01T00:00:00",
+      "end_date": "2024-03-31T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 1,
+      "non_ai_videos": 4,
+      "ai_comments": 30,
+      "non_ai_comments": 95,
+      "detection_details": [
+        {
+          "video_id": "QmexVFsMwgc",
+          "title": "Stanley’s on 💯 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "KEOq09n1giI",
+          "title": "Cute Couple Gone Wrong 😂❤️",
+          "video_type": "ai_generated",
+          "confidence": 0.3,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "mm5Atx38z8I",
+          "title": "The CRAZIEST Day Of School EVER! 😱 #shorts #storyt",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "2eqfrphdew8",
+          "title": "Newly Born Babies Meet Each Other #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "svPNgOUDfdo",
+          "title": "Man Arrives To The Super Bowl Just In Time #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q2",
+      "start_date": "2024-04-01T00:00:00",
+      "end_date": "2024-06-30T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 1,
+      "non_ai_videos": 4,
+      "ai_comments": 30,
+      "non_ai_comments": 95,
+      "detection_details": [
+        {
+          "video_id": "nwsL8PpqBqY",
+          "title": "This or That: Styling the shortest shorts in the w",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "H-9dZhnOUpQ",
+          "title": "Mom Tricks Son In To Confessing #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "3FM6yDB3dQk",
+          "title": "These Foods Are Illegal",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "DntmpGPvZxo",
+          "title": "When You Mess With A Dog #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "IvOkNaYs7Wk",
+          "title": "Try to present yourself cool 😎 #viral #trending #f",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q3",
+      "start_date": "2024-07-01T00:00:00",
+      "end_date": "2024-09-30T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 0,
+      "non_ai_videos": 5,
+      "ai_comments": 0,
+      "non_ai_comments": 125,
+      "detection_details": [
+        {
+          "video_id": "8VgQC2KoscE",
+          "title": "Still got the shot 👏 (via frizzyvisuals/IG) #short",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "q5p6eKFqvMw",
+          "title": "DATE NIGHT! - Jasmin and James #couple #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "bjQmuBM-Ywk",
+          "title": "Pressing Both Pedals At Once #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "hZWNRBEdVpQ",
+          "title": "Gaming As A Kid VS Now #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "uAszuHaz9YY",
+          "title": "Try Not to Laugh Challenge 569 🤣 #funny ⁠#shorts #",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q4",
+      "start_date": "2024-10-01T00:00:00",
+      "end_date": "2024-12-31T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 0,
+      "non_ai_videos": 5,
+      "ai_comments": 0,
+      "non_ai_comments": 125,
+      "detection_details": [
+        {
+          "video_id": "0POJAUhrNTQ",
+          "title": "I CAN’T BELIEVE THIS HAPPENED..👀😳 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "sbNB2iq8xmM",
+          "title": "girl’s PINK fridge restock #asmr #restock #fridge ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "Ru4h5rm6MW8",
+          "title": "Pack my lunchbox with me 🔥🥡 #asmr #lunchbox #bento",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "zQ3HBn6ksL0",
+          "title": "Girl Dinner🍽️🎀 #skincare #makeup #aesthetic #prepp",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "iMZfedvLFUk",
+          "title": "Pappa Ka Chicken Dance🤣 #zidaanshahidaly #familyco",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2025Q1",
+      "start_date": "2025-01-01T00:00:00",
+      "end_date": "2025-03-31T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 1,
+      "non_ai_videos": 4,
+      "ai_comments": 30,
+      "non_ai_comments": 95,
+      "detection_details": [
+        {
+          "video_id": "Qqq47exiU5M",
+          "title": "The last thing she ate before our trip to the Cari",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "kBlaEEfoS0Y",
+          "title": "Clare’s is trying so hard bro!!! #funny #claire’s ",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "6DuTdcMRpno",
+          "title": "✨ASMR✨Vanity Reset 🎀 #asmr #aesthetic #satisfying ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "8ueKH_hVxtk",
+          "title": "Re-creating viral buldak Ramen hacks! #Ramen #Eati",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "HhgxUnlhG4M",
+          "title": "This or That: Styling the shortest shorts in the w",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2025Q2",
+      "start_date": "2025-04-01T00:00:00",
+      "end_date": "2025-06-30T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 0,
+      "non_ai_videos": 5,
+      "ai_comments": 0,
+      "non_ai_comments": 125,
+      "detection_details": [
+        {
+          "video_id": "8PvRGqD6Nk8",
+          "title": "Londyns first dance competition!! #dlafam #londyn ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "DE0xkgd9O2A",
+          "title": "pink bath 🩷 What's next? #asmr #bathroutine #bathe",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "-xchn4e4DKE",
+          "title": "Strongest Man 😏 (Animation Meme) Anim: Mansurella ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "U7VmArAQLoo",
+          "title": "cute baby dance💃🕺funny baby laughing ||| funniest ",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "tsIunYlt2To",
+          "title": "who gon tell unc ☠️😭🙏🏿 | #shorts #unc #my11yearold",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2025Q3",
+      "start_date": "2025-07-01T00:00:00",
+      "end_date": "2025-09-30T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 1,
+      "non_ai_videos": 4,
+      "ai_comments": 30,
+      "non_ai_comments": 95,
+      "detection_details": [
+        {
+          "video_id": "2Gr3rBn1-K4",
+          "title": "Making my PERFECT sandwich 🥪 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "cjoAuNJq6mU",
+          "title": "Labubu wall art #diy #wallart #labubu #popmart #sh",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "0ZzMS-PNKIs",
+          "title": "The Secret Behind TikTok's Viral \"6 7\" Meme #short",
+          "video_type": "ai_generated",
+          "confidence": 0.2,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "e9Dt62JRwyA",
+          "title": "Electric Dancing Cactus Toy😍 | Cutest & Funniest P",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "K6AQfR8Motg",
+          "title": "Don’t Slam My Door #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    },
+    {
+      "quarter": "2025Q4",
+      "start_date": "2025-10-01T00:00:00",
+      "end_date": "2025-10-31T00:00:00",
+      "target_comments": 125,
+      "collected_comments": 125,
+      "videos_processed": 5,
+      "ai_videos": 2,
+      "non_ai_videos": 3,
+      "ai_comments": 60,
+      "non_ai_comments": 65,
+      "detection_details": [
+        {
+          "video_id": "OE6JqTSbajE",
+          "title": "RAINBOW HAIR TRANSFORMATION! #shorts #dlafam #lond",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "vookLXVP4tU",
+          "title": "How I Stole a Karkerkar Kurkur in Steal a Brainrot",
+          "video_type": "ai_generated",
+          "confidence": 0.5,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "7Sa6r5xaFjY",
+          "title": "This Baby’s Mom is a Genius 😳 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "n4x0JU1ywq8",
+          "title": "When The Gym Teacher Isn't Looking #Shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 30
+        },
+        {
+          "video_id": "NgqZEbatB2Q",
+          "title": "Behind the scenes of our bird video 😅 #shorts",
+          "video_type": "non_ai",
+          "confidence": 0.0,
+          "comments_collected": 5
+        }
+      ]
+    }
+  ],
+  "collection_stats": {
+    "total_videos_searched": 64,
+    "total_comments_collected": 1000,
+    "ai_videos": 6,
+    "non_ai_videos": 34,
+    "detection_failures": 0,
+    "quarters_completed": 8
+  },
+  "files": {
+    "all_comments": "data/raw/comments_natural_distribution_20251020_200458.json",
+    "ai_comments": "data/raw/comments_ai_20251020_200458.json",
+    "non_ai_comments": "data/raw/comments_non_ai_20251020_200458.json"
+  }
+}

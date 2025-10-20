@@ -1,0 +1,58 @@
+================================================================================
+ Topic Modeling Analysis Report
+================================================================================
+
+生成时间: 2025-10-20 21:13:44
+分析评论数: 3692
+提取主题数: 5
+
+================================================================================
+主题概览
+================================================================================
+
+Topic 0: General Discussion
+  关键词: love, super, girl, man, cute, right, water, friend, great, amazing
+
+Topic 1: General Discussion
+  关键词: like, hai, beautiful, wow, kya, ka, hi, bhi, ho, people
+
+Topic 2: bro/video/song
+  关键词: bro, video, song, nice, help, oh, just, funny, pls, try
+
+Topic 3: que/el/la
+  关键词: que, el, la, se, lo, best, thank, ve, thanks, yo
+
+Topic 4: General Discussion
+  关键词: good, like, don, got, did, make, know, just, think, said
+
+================================================================================
+主题分布统计
+================================================================================
+
+Topic 0 (General Discussion): 0.170 (17.0%)
+Topic 1 (General Discussion): 0.207 (20.7%)
+Topic 2 (bro/video/song): 0.204 (20.4%)
+Topic 3 (que/el/la): 0.190 (19.0%)
+Topic 4 (General Discussion): 0.229 (22.9%)
+
+================================================================================
+AI vs 非AI 主题对比
+================================================================================
+
+AI内容主题分布:
+  Topic 0 (General Discussion): 0.175
+  Topic 1 (General Discussion): 0.219
+  Topic 2 (bro/video/song): 0.192
+  Topic 3 (que/el/la): 0.169
+  Topic 4 (General Discussion): 0.245
+
+非AI内容主题分布:
+  Topic 0 (General Discussion): 0.168
+  Topic 1 (General Discussion): 0.202
+  Topic 2 (bro/video/song): 0.209
+  Topic 3 (que/el/la): 0.199
+  Topic 4 (General Discussion): 0.222
+
+================================================================================
+报告结束
+================================================================================
